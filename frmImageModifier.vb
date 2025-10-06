@@ -1,4 +1,9 @@
-﻿Public Class frmImageModifier
+' Program: Image Modifier
+' Author: Vadym Didukh
+' Description: Converts color images to grayscale using 
+' various algorithms (Monochrome, Luma, Desaturation, etc.)
+
+Public Class frmImageModifier
     Dim myImage As Bitmap
 
     Private Sub btnOpen_Click(sender As Object, e As EventArgs) Handles btnOpen.Click
@@ -199,3 +204,4 @@
         End If
     End Sub
 End Class
+
